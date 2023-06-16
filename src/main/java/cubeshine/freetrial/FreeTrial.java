@@ -2,7 +2,6 @@ package cubeshine.freetrial;
 
 import cubeshine.freetrial.Commands.FreeTrialCommand;
 import cubeshine.freetrial.Utils.FolderUtils;
-import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class FreeTrial extends JavaPlugin {
