@@ -5,6 +5,8 @@ api-version: "1.20"
 commands:
   trial:
     aliases: trial
+  time:
+    aliases: timeleft
 permissions:
   freetrial.use:
     default: op
