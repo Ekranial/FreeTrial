@@ -2,6 +2,7 @@ name: FreeTrial
 version: '${project.version}'
 main: cubeshine.freetrial.FreeTrial
 api-version: "1.20"
+softdepend: [PlaceholderAPI]
 commands:
   trial:
     aliases: trial
