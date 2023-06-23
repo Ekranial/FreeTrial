@@ -6,6 +6,8 @@ softdepend: [PlaceholderAPI]
 commands:
   trial:
     aliases: trial
+  pass:
+    aliases: pass
   time:
     aliases: timeleft
 permissions:

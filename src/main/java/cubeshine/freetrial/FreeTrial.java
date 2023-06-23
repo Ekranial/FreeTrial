@@ -1,6 +1,7 @@
 package cubeshine.freetrial;
 
 import cubeshine.freetrial.Commands.FreeTrialCommand;
+import cubeshine.freetrial.Commands.PassCommand;
 import cubeshine.freetrial.Commands.TimeLeftCommand;
 import cubeshine.freetrial.PlaceHolders.TimeLeftPlaceholder;
 import cubeshine.freetrial.Utils.FolderUtils;
@@ -14,6 +15,7 @@ public final class FreeTrial extends JavaPlugin {
         FolderUtils.run();
         this.getCommand("trial").setExecutor(new FreeTrialCommand());
         this.getCommand("timeleft").setExecutor(new TimeLeftCommand());
+        this.getCommand("pass").setExecutor(new PassCommand());
         if(Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null) {
             new TimeLeftPlaceholder(this).register();
         }

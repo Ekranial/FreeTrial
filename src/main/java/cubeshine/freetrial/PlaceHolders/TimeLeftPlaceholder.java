@@ -62,8 +62,8 @@ public class TimeLeftPlaceholder extends PlaceholderExpansion {
                     long hours = difference / 3600000;
                     long minutes = (difference % 3600000) / 60000;
                     long seconds = (difference % 60000) / 1000;
-                    return ("§aОсталось " + hours + " ч " + minutes
-                            + " м " + seconds + " с");
+                    return ("§aОсталось " + hours + "ч " + minutes
+                            + "м " + seconds + "с");
                 } else {
                     return ("§aПроходка куплена ☑");
                 }
